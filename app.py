@@ -7,6 +7,7 @@ import clip
 from PIL import Image
 import requests
 from io import BytesIO
+import os
 
 # -------------------------------
 # STREAMLIT CONFIG
@@ -84,8 +85,20 @@ def load_model():
 device = "cuda" if torch.cuda.is_available() else "cpu"
 clip_model, preprocess = load_model()
 
-products_df = pd.read_csv("product.csv")
-emb_matrix = np.load("embeddings.npy")
+# ✅ Try loading dataset, else fallback to demo data
+if os.path.exists("product.csv") and os.path.exists("embeddings.npy"):
+    products_df = pd.read_csv("product.csv")
+    emb_matrix = np.load("embeddings.npy")
+else:
+    st.warning("⚠️ product.csv or embeddings.npy not found. Using demo sample data.")
+    products_df = pd.DataFrame({
+        "product_name": ["Demo Product 1", "Demo Product 2"],
+        "imagepath": [
+            "https://via.placeholder.com/150",
+            "https://via.placeholder.com/150"
+        ]
+    })
+    emb_matrix = np.random.rand(len(products_df), 512)
 
 # -------------------------------
 # FEATURE EXTRACTION HELPERS
@@ -175,7 +188,6 @@ if query_features is not None:
         with col:
             st.markdown('<div class="product-card">', unsafe_allow_html=True)
 
-            # Use full path from imagepath column
             image_path = item['imagepath']
             try:
                 st.image(image_path, width=150)
@@ -185,8 +197,7 @@ if query_features is not None:
             st.markdown(f"""
             <h4>{item['product_name']}</h4>
             Similarity: {sim_scores[idx]:.3f}
-           """, unsafe_allow_html=True)
-
+            """, unsafe_allow_html=True)
 
             st.markdown('</div>', unsafe_allow_html=True)
 
