@@ -65,13 +65,10 @@ dataset/
 *.jpeg
 *.png
 
-# Ignore only the root-level product.csv (not product.csv in subfolders)
-product.csv
 
 
 # Ignore embeddings.npy (anywhere in repo)
-embeddings.npy
-product.zip
+
 images.zip
 
 

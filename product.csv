@@ -1,0 +1,181 @@
+product_id,product_name,category,imagepath
+343,Beauty Perfume 25,beauty_perfume,images/beauty_perfume/beauty_perfume_25.jpg
+742,Jeans Women 9,jeans_women,images/jeans_women/jeans_women_9.jpg
+356,Cargo Pants 1,cargo_pants,images/cargo_pants/cargo_pants_1.jpg
+584,Hats Bucket 5,hats_bucket,images/hats_bucket/hats_bucket_5.jpg
+1090,Watches Men 17,watches_men,images/watches_men/watches_men_17.jpg
+679,Heels 19,heels,images/heels/heels_19.jpg
+241,Beauty Lipstick 9,beauty_lipstick,images/beauty_lipstick/beauty_lipstick_9.jpg
+248,Beauty Mascara 15,beauty_mascara,images/beauty_mascara/beauty_mascara_15.jpg
+425,Dresses Formal 18,dresses_formal,images/dresses_formal/dresses_formal_18.jpg
+200,Beauty Kit 2,beauty_kit,images/beauty_kit/beauty_kit_2.jpg
+157,Beauty Facecream 8,beauty_facecream,images/beauty_facecream/beauty_facecream_8.jpg
+530,Handbags 49,Handbags,images/Handbags/handbags_49.jpg
+139,Beauty Facecream 15,beauty_facecream,images/beauty_facecream/beauty_facecream_15.jpg
+322,Beauty Nailpolish 6,beauty_nailpolish,images/beauty_nailpolish/beauty_nailpolish_6.jpg
+210,Beauty Kit 5,beauty_kit,images/beauty_kit/beauty_kit_5.jpg
+543,Hats Baseball 15,hats_baseball,images/hats_baseball/hats_baseball_15.jpg
+1020,Tshirts Men 12,tshirts_men,images/tshirts_men/tshirts_men_12.jpg
+24,Backpacks School 12,backpacks_school,images/backpacks_school/backpacks_school_12.jpg
+129,Beauty Eyeliner 6,beauty_eyeliner,images/beauty_eyeliner/beauty_eyeliner_6.jpg
+585,Hats Bucket 6,hats_bucket,images/hats_bucket/hats_bucket_6.jpg
+783,Phones Iphone 6,phones_iphone,images/phones_iphone/phones_iphone_6.jpg
+110,Beauty Eyeliner 16,beauty_eyeliner,images/beauty_eyeliner/beauty_eyeliner_16.jpg
+794,Phones Pixel 16,phones_pixel,images/phones_pixel/phones_pixel_16.jpg
+678,Heels 18,heels,images/heels/heels_18.jpg
+50,Backpacks School 9,backpacks_school,images/backpacks_school/backpacks_school_9.jpg
+211,Beauty Kit 6,beauty_kit,images/beauty_kit/beauty_kit_6.jpg
+140,Beauty Facecream 16,beauty_facecream,images/beauty_facecream/beauty_facecream_16.jpg
+244,Beauty Mascara 11,beauty_mascara,images/beauty_mascara/beauty_mascara_11.jpg
+809,Phones Pixel 3,phones_pixel,images/phones_pixel/phones_pixel_3.jpg
+786,Phones Iphone 9,phones_iphone,images/phones_iphone/phones_iphone_9.jpg
+1025,Tshirts Men 4,tshirts_men,images/tshirts_men/tshirts_men_4.jpg
+876,Sandals 18,sandals,images/sandals/sandals_18.jpg
+287,Beauty Moisturizer 23,beauty_moisturizer,images/beauty_moisturizer/beauty_moisturizer_23.jpg
+536,Handbags 9,Handbags,images/Handbags/handbags_9.jpg
+319,Beauty Nailpolish 30,beauty_nailpolish,images/beauty_nailpolish/beauty_nailpolish_30.jpg
+79,Beauty Compact 14,beauty_compact,images/beauty_compact/beauty_compact_14.jpg
+1062,Watches Digital 15,watches_digital,images/watches_digital/watches_digital_15.jpg
+232,Beauty Lipstick 25,beauty_lipstick,images/beauty_lipstick/beauty_lipstick_25.jpg
+1098,Watches Men 24,watches_men,images/watches_men/watches_men_24.jpg
+71,Backpacks Travel 7,backpacks_travel,images/backpacks_travel/backpacks_travel_7.jpg
+603,Hats Snapback 22,hats_snapback,images/hats_snapback/hats_snapback_22.jpg
+1103,Watches Men 29,watches_men,images/watches_men/watches_men_29.jpg
+728,Jeans Women 21,jeans_women,images/jeans_women/jeans_women_21.jpg
+368,Cargo Pants 20,cargo_pants,images/cargo_pants/cargo_pants_20.jpg
+219,Beauty Lipstick 13,beauty_lipstick,images/beauty_lipstick/beauty_lipstick_13.jpg
+466,Earphones Wired 18,earphones_wired,images/earphones_wired/earphones_wired_18.jpg
+935,Sneakers 22,sneakers,images/sneakers/sneakers_22.jpg
+437,Dresses Formal 4,dresses_formal,images/dresses_formal/dresses_formal_4.jpg
+582,Hats Bucket 30,hats_bucket,images/hats_bucket/hats_bucket_30.jpg
+666,Headphones Wireless 7,headphones_wireless,images/headphones_wireless/headphones_wireless_7.jpg
+829,Phones Samsung 20,phones_samsung,images/phones_samsung/phones_samsung_20.jpg
+882,Sandals 23,sandals,images/sandals/sandals_23.jpg
+295,Beauty Moisturizer 9,beauty_moisturizer,images/beauty_moisturizer/beauty_moisturizer_9.jpg
+1076,Watches Digital 4,watches_digital,images/watches_digital/watches_digital_4.jpg
+337,Beauty Perfume 2,beauty_perfume,images/beauty_perfume/beauty_perfume_2.jpg
+1133,Watches Women 29,watches_women,images/watches_women/watches_women_29.jpg
+199,Beauty Kit 19,beauty_kit,images/beauty_kit/beauty_kit_19.jpg
+1072,Watches Digital 24,watches_digital,images/watches_digital/watches_digital_24.jpg
+740,Jeans Women 7,jeans_women,images/jeans_women/jeans_women_7.jpg
+1128,Watches Women 24,watches_women,images/watches_women/watches_women_24.jpg
+561,Hats Bucket 11,hats_bucket,images/hats_bucket/hats_bucket_11.jpg
+960,Sunglasses Men 23,sunglasses_men,images/sunglasses_men/sunglasses_men_23.jpg
+179,Beauty Foundation 28,beauty_foundation,images/beauty_foundation/beauty_foundation_28.jpg
+11,Adidas Shoes 19,Adidas Shoes,images/Adidas Shoes/adidasshoes_19.jpeg
+717,Jeans Women 11,jeans_women,images/jeans_women/jeans_women_11.jpg
+329,Beauty Perfume 12,beauty_perfume,images/beauty_perfume/beauty_perfume_12.jpg
+644,Headphones Wireless 11,headphones_wireless,images/headphones_wireless/headphones_wireless_11.jpg
+558,Hats Baseball 9,hats_baseball,images/hats_baseball/hats_baseball_9.jpg
+880,Sandals 21,sandals,images/sandals/sandals_21.jpg
+1080,Watches Digital 8,watches_digital,images/watches_digital/watches_digital_8.jpg
+697,Jeans Men 12,jeans_men,images/jeans_men/jeans_men_12.jpg
+159,Beauty Foundation 1,beauty_foundation,images/beauty_foundation/beauty_foundation_1.jpg
+616,Headphones Overear 13,headphones_overear,images/headphones_overear/headphones_overear_13.jpg
+84,Beauty Compact 19,beauty_compact,images/beauty_compact/beauty_compact_19.jpg
+653,Headphones Wireless 2,headphones_wireless,images/headphones_wireless/headphones_wireless_2.jpg
+299,Beauty Nailpolish 12,beauty_nailpolish,images/beauty_nailpolish/beauty_nailpolish_12.jpg
+1013,Sunglasses Women 6,sunglasses_women,images/sunglasses_women/sunglasses_women_6.jpg
+843,Phones Samsung 6,phones_samsung,images/phones_samsung/phones_samsung_6.jpg
+32,Backpacks School 2,backpacks_school,images/backpacks_school/backpacks_school_2.jpg
+141,Beauty Facecream 17,beauty_facecream,images/beauty_facecream/beauty_facecream_17.jpg
+52,Backpacks Travel 10,backpacks_travel,images/backpacks_travel/backpacks_travel_10.jpg
+592,Hats Snapback 12,hats_snapback,images/hats_snapback/hats_snapback_12.jpg
+431,Dresses Formal 23,dresses_formal,images/dresses_formal/dresses_formal_23.jpg
+756,Nike Shoes 3,Nike Shoes,images/Nike Shoes/nikeshoes_3.jpg
+87,Beauty Compact 21,beauty_compact,images/beauty_compact/beauty_compact_21.jpg
+362,Cargo Pants 15,cargo_pants,images/cargo_pants/cargo_pants_15.jpg
+765,Phones Iphone 11,phones_iphone,images/phones_iphone/phones_iphone_11.jpg
+553,Hats Baseball 4,hats_baseball,images/hats_baseball/hats_baseball_4.jpg
+933,Sneakers 20,sneakers,images/sneakers/sneakers_20.jpg
+873,Sandals 15,sandals,images/sandals/sandals_15.jpg
+799,Phones Pixel 20,phones_pixel,images/phones_pixel/phones_pixel_20.jpg
+804,Phones Pixel 25,phones_pixel,images/phones_pixel/phones_pixel_25.jpg
+514,Handbags 34,Handbags,images/Handbags/handbags_34.jpg
+114,Beauty Eyeliner 2,beauty_eyeliner,images/beauty_eyeliner/beauty_eyeliner_2.jpg
+479,Earphones Wired 3,earphones_wired,images/earphones_wired/earphones_wired_3.jpg
+1024,Tshirts Men 3,tshirts_men,images/tshirts_men/tshirts_men_3.jpg
+1129,Watches Women 25,watches_women,images/watches_women/watches_women_25.jpg
+529,Handbags 48,Handbags,images/Handbags/handbags_48.jpg
+975,Sunglasses Round 16,sunglasses_round,images/sunglasses_round/sunglasses_round_16.jpg
+555,Hats Baseball 6,hats_baseball,images/hats_baseball/hats_baseball_6.jpg
+874,Sandals 16,sandals,images/sandals/sandals_16.jpg
+480,Earphones Wired 30,earphones_wired,images/earphones_wired/earphones_wired_30.jpg
+997,Sunglasses Women 19,sunglasses_women,images/sunglasses_women/sunglasses_women_19.jpg
+142,Beauty Facecream 18,beauty_facecream,images/beauty_facecream/beauty_facecream_18.jpg
+461,Earphones Wired 13,earphones_wired,images/earphones_wired/earphones_wired_13.jpg
+77,Beauty Compact 12,beauty_compact,images/beauty_compact/beauty_compact_12.jpg
+811,Phones Pixel 4,phones_pixel,images/phones_pixel/phones_pixel_4.jpg
+261,Beauty Mascara 27,beauty_mascara,images/beauty_mascara/beauty_mascara_27.jpg
+333,Beauty Perfume 16,beauty_perfume,images/beauty_perfume/beauty_perfume_16.jpg
+854,Puma Shoes 16,Puma Shoes,images/Puma Shoes/pumashoes_16.jpg
+434,Dresses Formal 26,dresses_formal,images/dresses_formal/dresses_formal_26.jpg
+465,Earphones Wired 17,earphones_wired,images/earphones_wired/earphones_wired_17.jpg
+763,Phones Iphone 1,phones_iphone,images/phones_iphone/phones_iphone_1.jpg
+828,Phones Samsung 2,phones_samsung,images/phones_samsung/phones_samsung_2.jpg
+399,Dresses Casual 21,dresses_casual,images/dresses_casual/dresses_casual_21.jpg
+494,Handbags 16,Handbags,images/Handbags/handbags_16.jpg
+862,Puma Shoes 5,Puma Shoes,images/Puma Shoes/pumashoes_5.jpg
+845,Phones Samsung 8,phones_samsung,images/phones_samsung/phones_samsung_8.jpg
+1040,Watches 12,Watches,images/Watches/watches_12.jpg
+1114,Watches Women 11,watches_women,images/watches_women/watches_women_11.jpg
+923,Sneakers 11,sneakers,images/sneakers/sneakers_11.jpg
+908,Shirts Men 25,shirts_men,images/shirts_men/shirts_men_25.jpg
+662,Headphones Wireless 3,headphones_wireless,images/headphones_wireless/headphones_wireless_3.jpg
+482,Earphones Wired 5,earphones_wired,images/earphones_wired/earphones_wired_5.jpg
+753,Nike Shoes 19,Nike Shoes,images/Nike Shoes/nikeshoes_19.jpg
+97,Beauty Compact 4,beauty_compact,images/beauty_compact/beauty_compact_4.jpg
+732,Jeans Women 25,jeans_women,images/jeans_women/jeans_women_25.jpg
+395,Dresses Casual 18,dresses_casual,images/dresses_casual/dresses_casual_18.jpg
+916,Shirts Men 5,shirts_men,images/shirts_men/shirts_men_5.jpg
+599,Hats Snapback 19,hats_snapback,images/hats_snapback/hats_snapback_19.jpg
+535,Handbags 8,Handbags,images/Handbags/handbags_8.jpg
+939,Sneakers 4,sneakers,images/sneakers/sneakers_4.jpg
+683,Heels 22,heels,images/heels/heels_22.jpg
+559,Hats Bucket 1,hats_bucket,images/hats_bucket/hats_bucket_1.jpg
+549,Hats Baseball 20,hats_baseball,images/hats_baseball/hats_baseball_20.jpg
+278,Beauty Moisturizer 15,beauty_moisturizer,images/beauty_moisturizer/beauty_moisturizer_15.jpg
+971,Sunglasses Round 12,sunglasses_round,images/sunglasses_round/sunglasses_round_12.jpg
+1057,Watches Digital 10,watches_digital,images/watches_digital/watches_digital_10.jpg
+363,Cargo Pants 16,cargo_pants,images/cargo_pants/cargo_pants_16.jpg
+175,Beauty Foundation 24,beauty_foundation,images/beauty_foundation/beauty_foundation_24.jpg
+773,Phones Iphone 19,phones_iphone,images/phones_iphone/phones_iphone_19.jpg
+297,Beauty Nailpolish 10,beauty_nailpolish,images/beauty_nailpolish/beauty_nailpolish_10.jpg
+292,Beauty Moisturizer 6,beauty_moisturizer,images/beauty_moisturizer/beauty_moisturizer_6.jpg
+487,Handbags 1,Handbags,images/Handbags/handbags_1.jpg
+345,Beauty Perfume 27,beauty_perfume,images/beauty_perfume/beauty_perfume_27.jpg
+614,Headphones Overear 11,headphones_overear,images/headphones_overear/headphones_overear_11.jpg
+980,Sunglasses Round 3,sunglasses_round,images/sunglasses_round/sunglasses_round_3.jpg
+754,Nike Shoes 2,Nike Shoes,images/Nike Shoes/nikeshoes_2.jpg
+89,Beauty Compact 23,beauty_compact,images/beauty_compact/beauty_compact_23.jpg
+680,Heels 2,heels,images/heels/heels_2.jpg
+382,Cargo Pants 6,cargo_pants,images/cargo_pants/cargo_pants_6.jpg
+1005,Sunglasses Women 26,sunglasses_women,images/sunglasses_women/sunglasses_women_26.jpg
+293,Beauty Moisturizer 7,beauty_moisturizer,images/beauty_moisturizer/beauty_moisturizer_7.jpg
+1069,Watches Digital 21,watches_digital,images/watches_digital/watches_digital_21.jpg
+300,Beauty Nailpolish 13,beauty_nailpolish,images/beauty_nailpolish/beauty_nailpolish_13.jpg
+60,Backpacks Travel 18,backpacks_travel,images/backpacks_travel/backpacks_travel_18.jpg
+360,Cargo Pants 13,cargo_pants,images/cargo_pants/cargo_pants_13.jpg
+102,Beauty Compact 9,beauty_compact,images/beauty_compact/beauty_compact_9.jpg
+57,Backpacks Travel 15,backpacks_travel,images/backpacks_travel/backpacks_travel_15.jpg
+562,Hats Bucket 12,hats_bucket,images/hats_bucket/hats_bucket_12.jpg
+193,Beauty Kit 13,beauty_kit,images/beauty_kit/beauty_kit_13.jpg
+446,Dresses Party 12,dresses_party,images/dresses_party/dresses_party_12.jpg
+896,Shirts Men 14,shirts_men,images/shirts_men/shirts_men_14.jpg
+291,Beauty Moisturizer 5,beauty_moisturizer,images/beauty_moisturizer/beauty_moisturizer_5.jpg
+429,Dresses Formal 21,dresses_formal,images/dresses_formal/dresses_formal_21.jpg
+707,Jeans Men 21,jeans_men,images/jeans_men/jeans_men_21.jpg
+209,Beauty Kit 4,beauty_kit,images/beauty_kit/beauty_kit_4.jpg
+454,Dresses Party 7,dresses_party,images/dresses_party/dresses_party_7.jpg
+650,Headphones Wireless 17,headphones_wireless,images/headphones_wireless/headphones_wireless_17.jpg
+108,Beauty Eyeliner 14,beauty_eyeliner,images/beauty_eyeliner/beauty_eyeliner_14.jpg
+797,Phones Pixel 19,phones_pixel,images/phones_pixel/phones_pixel_19.jpg
+334,Beauty Perfume 17,beauty_perfume,images/beauty_perfume/beauty_perfume_17.jpg
+307,Beauty Nailpolish 2,beauty_nailpolish,images/beauty_nailpolish/beauty_nailpolish_2.jpg
+430,Dresses Formal 22,dresses_formal,images/dresses_formal/dresses_formal_22.jpg
+645,Headphones Wireless 12,headphones_wireless,images/headphones_wireless/headphones_wireless_12.jpg
+528,Handbags 47,Handbags,images/Handbags/handbags_47.jpg
+507,Handbags 28,Handbags,images/Handbags/handbags_28.jpg
+701,Jeans Men 16,jeans_men,images/jeans_men/jeans_men_16.jpg
+45,Backpacks School 4,backpacks_school,images/backpacks_school/backpacks_school_4.jpg
+689,Heels 5,heels,images/heels/heels_5.jpg

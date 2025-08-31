@@ -5,24 +5,50 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 import os
-import glob
 
-# Select device
+# -------------------------------
+# CONFIG
+# -------------------------------
+INPUT_CSV = "product.csv"        # your big file (already exists)
+OUTPUT_CSV = "product.csv"       # overwrite with 180 sampled items
+OUTPUT_NPY = "embeddings.npy"    # embeddings for 180 items
+OUTPUT_JSON = "products_with_embeddings.json"
+
+N_SAMPLES = 180                  # how many items you want
+
+# -------------------------------
+# DEVICE + CLIP MODEL
+# -------------------------------
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device)
 
-# Load product data
-df = pd.read_csv("product.csv")
+# -------------------------------
+# LOAD + SAMPLE DATA
+# -------------------------------
+df = pd.read_csv(INPUT_CSV)
 
+# normalize column names
+df.columns = df.columns.str.lower().str.strip()
+if "imagepath" not in df.columns:
+    if "image_path" in df.columns:
+        df.rename(columns={"image_path": "imagepath"}, inplace=True)
+    elif "image" in df.columns:
+        df.rename(columns={"image": "imagepath"}, inplace=True)
+
+# randomly pick 180 items
+df_small = df.sample(n=N_SAMPLES, random_state=42).reset_index(drop=True)
+
+# -------------------------------
+# CREATE EMBEDDINGS
+# -------------------------------
 embeddings_list = []
+print(f"🔍 Creating embeddings for {len(df_small)} images...")
 
-print(" Creating embeddings for product images...")
-
-for idx, row in tqdm(df.iterrows(), total=len(df)):
-    image_path = row['imagepath']  # NOTE: you changed this column in your CSV
+for idx, row in tqdm(df_small.iterrows(), total=len(df_small)):
+    image_path = row["imagepath"]
 
     if not os.path.isfile(image_path):
-        print(f"File not found: {image_path}")
+        print(f"⚠️ File not found: {image_path}")
         embeddings_list.append(np.zeros((512,)))
         continue
 
@@ -35,14 +61,18 @@ for idx, row in tqdm(df.iterrows(), total=len(df)):
             vector = vector / vector.norm(dim=-1, keepdim=True)
             embeddings_list.append(vector.cpu().numpy()[0])
     except Exception as e:
-        print(f"Could not process {image_path}: {e}")
+        print(f"❌ Could not process {image_path}: {e}")
         embeddings_list.append(np.zeros((512,)))
 
-# Save numpy embeddings
-np.save("embeddings.npy", np.array(embeddings_list))
-print("embeddings.npy saved successfully")
+# -------------------------------
+# SAVE RESULTS
+# -------------------------------
+np.save(OUTPUT_NPY, np.array(embeddings_list))
+print(f"✅ Saved embeddings to {OUTPUT_NPY}")
 
-# Save embeddings alongside product info (optional)
-df["embedding"] = [vec.tolist() for vec in embeddings_list]
-df.to_json("products_with_embeddings.json", orient="records")
-print("products_with_embeddings.json created with embeddings")
+df_small.to_csv(OUTPUT_CSV, index=False)
+print(f"✅ Overwrote {OUTPUT_CSV} with reduced dataset ({N_SAMPLES} rows)")
+
+df_small["embedding"] = [vec.tolist() for vec in embeddings_list]
+df_small.to_json(OUTPUT_JSON, orient="records")
+print(f"✅ Saved JSON with embeddings to {OUTPUT_JSON}")
