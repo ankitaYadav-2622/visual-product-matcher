@@ -1,0 +1,77 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Ignore virtual environment
+bin/
+lib/
+lib64/
+include/
+pyvenv.cfg
+etc/
+share/
+
+# Or if you're using a named virtual env like `.venv` or `env`
+.venv/
+env/
+venv/
+
+# Ignore Jupyter/IPython notebooks checkpoints (if using)
+.ipynb_checkpoints/
+
+# Ignore pip cache
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+*.whl
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# VSCode or PyCharm settings (optional)
+.vscode/
+.idea/
+
+# Ignore test results or coverage files
+coverage.xml
+htmlcov/
+.cache/
+.tox/
+.pytest_cache/
+
+# Ignore files from your specific app (folder at repo root)
+images/
+
+# Ignore environment file
+.env
+
+# Ignore dataset folders at root
+data/
+dataset/
+
+# Ignore all zip files anywhere in repo
+*.zip
+
+# Ignore all jpg, jpeg, png files anywhere in repo
+*.jpg
+*.jpeg
+*.png
+
+# Ignore only the root-level product.csv (not product.csv in subfolders)
+product.csv
+
+
+# Ignore embeddings.npy (anywhere in repo)
+embeddings.npy
+product.zip
+images.zip
+
+
