@@ -85,20 +85,9 @@ def load_model():
 device = "cuda" if torch.cuda.is_available() else "cpu"
 clip_model, preprocess = load_model()
 
-# ✅ Try loading dataset, else fallback to demo data
-if os.path.exists("product.csv") and os.path.exists("embeddings.npy"):
-    products_df = pd.read_csv("product.csv")
-    emb_matrix = np.load("embeddings.npy")
-else:
-    st.warning("⚠️ product.csv or embeddings.npy not found. Using demo sample data.")
-    products_df = pd.DataFrame({
-        "product_name": ["Demo Product 1", "Demo Product 2"],
-        "imagepath": [
-            "https://via.placeholder.com/150",
-            "https://via.placeholder.com/150"
-        ]
-    })
-    emb_matrix = np.random.rand(len(products_df), 512)
+# 🔴 No fallback: must have product.csv + embeddings.npy
+products_df = pd.read_csv("product.csv")
+emb_matrix = np.load("embeddings.npy")
 
 # -------------------------------
 # FEATURE EXTRACTION HELPERS
