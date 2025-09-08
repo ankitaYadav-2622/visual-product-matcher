@@ -42,10 +42,6 @@ project/
 └── README.md                   # (This file)
 
 
-
-PROJECT STRUCTURE
-
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
