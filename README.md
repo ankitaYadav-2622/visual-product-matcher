@@ -17,32 +17,11 @@ You can **add**, **search**, and **reset** an index of images using image or tex
 ---
 
 ## 🏗️ Project Structure
-
+<pre> project/ │ ├── app/ # Main Streamlit app │ ├── main.py # Streamlit UI │ └── ... │ ├── core/ # Core utilities │ ├── clip_utils.py # CLIP embedding functions │ ├── faiss_manager.py # FAISS index handling │ ├── storage.py # Image save/delete helpers │ └── config.py # Configuration (TOP_K, paths, etc.) │ ├── images/ # Uploaded and indexed images │ ├── generate_embeddings.py # Batch embedding generator ├── generate_csv.py # CSV generator for categorized images │ ├── embeddings.npy # Saved embeddings (generated) ├── product.csv # Image metadata (name, path) ├── products.csv # Image metadata with ID, category, URL │ └── README.md # (This file) </pre>
 
 
 PROJECT STRUCTURE
-project/
-│
-├── app/                        # Main Streamlit app
-│   ├── main.py                 # Streamlit UI
-│   └── ...
-│
-├── core/                       # Core utilities
-│   ├── clip_utils.py           # CLIP embedding functions
-│   ├── faiss_manager.py        # FAISS index handling
-│   ├── storage.py              # Image save/delete helpers
-│   └── config.py               # Configuration (TOP_K, paths, etc.)
-│
-├── images/                     # Uploaded and indexed images
-│
-├── generate_embeddings.py      # Batch embedding generator
-├── generate_csv.py             # CSV generator for categorized images
-│
-├── embeddings.npy              # Saved embeddings (generated)
-├── product.csv                 # Image metadata (name, path)
-├── products.csv                # Image metadata with ID, category, URL
-│
-└── README.md                   # (This file)
+
 
 ## ⚙️ Setup Instructions
 
